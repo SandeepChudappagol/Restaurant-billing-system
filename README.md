@@ -1,4 +1,4 @@
-## Restaurant Billing System
+# Restaurant Billing System
 The given code consists of two classes, Bill and Driver, written in Java. It simulates a simple billing system for a food ordering scenario. Here's a detailed explanation:
 
 1. Class: Bill
