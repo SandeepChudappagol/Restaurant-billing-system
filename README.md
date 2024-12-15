@@ -41,21 +41,23 @@ getOrder():
 Displays all the items ordered and their respective quantities.
 Logic:
 Iterates through the orderedFood and orderedQuantity lists and prints each item along with its quantity.
+
+
 2. Class: Driver
 This is the main class that drives the program. It contains the main() method where the execution begins.
 
-Steps in main():
-Define available dishes and their costs:
-
+## Steps in main():
+# Define available dishes and their costs:
 An array dish contains the names of available dishes (e.g., "Idli", "Dosa").
 An array cost contains the respective prices for these dishes (e.g., 20.5 for "Idli").
-Create a Bill object:
 
+# Create a Bill object:
 An instance of the Bill class is created using the default constructor.
-Add orders to the bill:
 
+# Add orders to the bill:
 addOrder() is called to add items like "Idli", "Dosa", and "Tea" with respective quantities.
-Display the ordered items and total cost:
+
+# Display the ordered items and total cost:
 
 getOrder() is called to print the ordered items and their quantities.
 getTotal() is called to print the total cost of the order.
@@ -70,24 +72,33 @@ Tea 2
 Explanation of the Output:
 Order Details:
 
+
+
 "Idli" ordered: 3 servings (Cost = 3 × 20.5 = 61.5).
+
+
 "Dosa" ordered: 2 servings (Cost = 2 × 30.6 = 61.2).
+
+
 "Tea" ordered: 2 servings (Cost = 2 × 15.7 = 31.4).
-Total Cost:
 
-Sum of costs = 61.5 + 61.2 + 31.4 = 154.7.
+
+Total Cost: Sum of costs = 61.5 + 61.2 + 31.4 = 154.7.
+
+
 Key Concepts Illustrated in the Code
-Encapsulation:
 
+
+# Encapsulation:
 The Bill class encapsulates the billing logic, ensuring data (like orderedFood and totalCost) is accessed and modified only through methods.
-Dynamic Arrays (ArrayList):
 
+# Dynamic Arrays (ArrayList):
 ArrayList is used for dynamic storage of ordered food items and quantities.
-Control Structures:
 
+# Control Structures:
 A for loop is used to match the ordered dish with its corresponding cost.
-Object-Oriented Programming (OOP):
 
+# Object-Oriented Programming (OOP):
 Objects of Bill class manage individual bills.
 Reusable methods like addOrder() and getOrder() make the code modular.
 This program is a basic representation of how billing systems can be implemented programmatically.
